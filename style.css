@@ -1,0 +1,227 @@
+#box ul li a:hover{
+ 
+    color: red;
+}
+#box input{
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#box button{
+    padding: 5px 30px 5px 30px;
+   
+}
+.shabtn{
+
+    margin-left: 5px;
+}
+
+@media screen and (max-width:600px) {
+
+    #box button{
+        margin-top: 10px;
+        width: 100px;
+        padding: 5px;
+        
+        
+       
+    }
+
+    #box input{
+        width: 100%;
+    }
+}
+
+.main{
+
+    background: url(./img/pexels-andreea-ch-3969097.jpg);
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+    background-position: 70% 70%;
+}
+
+.col-lg-7{
+
+    
+     padding: 20px;
+     height: 600px;
+     
+     
+
+     
+}
+
+
+
+
+.col-lg-7 h1{
+    font-size: 50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+.one{
+    
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+.shabtn{
+    background-color: #d13834;
+    width: 100px;
+    padding: 5px;
+    border: 5px;
+    border-radius: 8px;
+    height: 40px;
+    font-size: large;
+    font-weight: 500;
+}
+.shabtn:hover{
+    background-color: rgb(240, 113, 113);
+}
+
+
+@media screen and (max-width:600px) {
+    .col-lg-7{
+        padding: 20px;
+        margin-top:50px;
+    }
+    
+    .main{
+    
+        background: url(./img/pexels-andreea-ch-3969097.jpg);
+        background-size: cover;
+        height: 95vh;
+        width: 100%;
+        background-position: 90% 90%;
+    }
+
+    
+   
+   .one{
+
+    color:rgb(13, 11, 11);
+   }
+
+
+}
+
+span{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 20px;
+}
+.card{
+    border: 1px solid #ccc;
+}
+
+.exp
+{
+
+display: flex;
+justify-content: space-evenly;
+
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+
+    .exp
+    {
+    
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    }
+    
+    .exp-1{
+    
+      
+        justify-content: center;
+    }
+    
+    .exp-2
+    {
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .exp-3
+    {
+        justify-content: center;
+    }
+
+   
+
+
+
+
+}
+
+
+#day,#hour,#min,#sec{
+	font-size : 50px ;
+    padding: 10px;
+    background-color: #e5d903;
+}
+
+
+@media screen and (max-width:600px) {
+
+
+    #day,#hour,#min,#sec{
+        font-size : 30px ;
+        padding: 5px;
+    }
+
+    
+}
+
+.card:hover{
+
+    background-color: #ccc;
+}
+
+.back{
+
+    background-image: url(./img/hayley-maxwell-qubeRW0DiDM-unsplash.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+    background-position: 70% 70%;
+}
+
+.bow{
+    width:600px ;
+ 
+    margin-left: 30px;
+    padding: 20px;
+    
+}
+
+.bow-1{
+
+    height: 500px;
+
+    display: flex;
+   
+    align-items: center;
+}
+
+
+.footer{
+    background-color: rgb(241, 231, 231);
+    padding-top: 10px;
+}
